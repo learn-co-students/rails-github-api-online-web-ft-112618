@@ -34,6 +34,7 @@ gem 'dotenv-rails'
 group :test do
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'rack-test'
   gem 'rack_session_access'
   gem 'webmock'
 end
